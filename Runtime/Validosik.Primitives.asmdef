@@ -1,0 +1,15 @@
+{
+    "name": "Validosik.Core.Primitives",
+    "rootNamespace": "Validosik.Core.Primitives",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+  }
+  
