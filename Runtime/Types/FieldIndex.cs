@@ -12,6 +12,6 @@ namespace Validosik.Core.Primitives.Types
         public override bool Equals(object obj) => obj is FieldIndex o && Equals(o);
         public override int GetHashCode() => Value;
         public static implicit operator byte(FieldIndex v) => v.Value;
-        public static explicit operator FieldIndex(byte v) => new FieldIndex(v);
+        public static implicit operator FieldIndex(byte v) => new FieldIndex(v);
     }
 }
